@@ -9,6 +9,5 @@ import { Output, EventEmitter } from '@angular/core';
 })
 export class ProductAlertsComponent {
   @Input() product;
-  @Output() notity = new EventEmitter();
-
+  @Output() notify = new EventEmitter();
 }
